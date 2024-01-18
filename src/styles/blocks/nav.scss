@@ -1,0 +1,20 @@
+.nav {
+  display: none;
+
+  @include on-desktop {
+    display: block;
+  }
+
+  &__list {
+    display: flex;
+    gap: 60px;
+  }
+
+  &__item {
+    color: $color-nav-text;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}

@@ -1,0 +1,80 @@
+.header {
+  height: 100vh;
+  padding-top: 6px;
+
+  @include on-tablet {
+    padding-top: 23px;
+    background-image: url(../images/header/header-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 1035px 466px;
+    background-position: top right;
+    background-position-x: -100px;
+  }
+
+  @include on-desktop {
+    padding-top: 15px;
+    background-position: initial;
+  }
+
+  &__main {
+    position: relative;
+    margin-top: 10px;
+
+    @include on-tablet {
+      margin-top: 50px;
+    }
+
+    @include on-desktop {
+      margin-top: 76px;
+    }
+  }
+
+  // &__content {
+
+  // }
+
+  &__image {
+    display: block;
+    background-image: url(../images/header/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+    width: 100vw;
+    margin-inline: -$padding-inline-mobile;
+
+    @include on-tablet {
+      margin-inline: initial;
+      height: 306px;
+      width: 306px;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+    }
+
+    @include on-desktop {
+      height: 500px;
+      width: 500px;
+    }
+  }
+
+  &__title {
+    color: $turquoise;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 5.58px;
+    text-transform: uppercase;
+    z-index: 5;
+
+    @include on-tablet {
+      font-size: 64px;
+      letter-spacing: 9.92px;
+    }
+
+    &--border {
+      -webkit-text-stroke: 1px $turquoise;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

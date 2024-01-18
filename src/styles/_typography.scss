@@ -1,3 +1,87 @@
-h1 {
-  @extend %h1;
+%title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px; /* 100% */
+  letter-spacing: 9.92px;
+}
+
+%h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 58px;
+  font-weight: 400;
+  letter-spacing: 8.99px;
+}
+
+%h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%; /* 54px */
+  letter-spacing: 5.58px;
+}
+
+%h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  letter-spacing: 3.72px;
+}
+
+%h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px; /* 100% */
+  letter-spacing: 2.79px;
+}
+
+%s1-36 {
+  font-family: Manrope, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+%s1-32 {
+  font-family: Manrope, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+}
+
+%s2 {
+  font-family: Manrope, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+%s3 {
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+%s4 {
+  font-family: Manrope, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+}
+
+%s5 {
+  font-family: Manrope, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+%button {
+  font-family: Manrope, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
 }
